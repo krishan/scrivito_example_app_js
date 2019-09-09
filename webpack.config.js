@@ -170,6 +170,8 @@ function generatePlugins({ isProduction, isPrerendering, scrivitoOrigin }) {
       { from: "../public", ignore: ignorePublicFiles },
       {
         from: "../node_modules/scrivito/scrivito/index.html",
+        // from:
+        //  "../../rails_connector/repo/js/build/npm_scrivito/scrivito/index.html",
         to: "scrivito/index.html",
       },
     ]),
